@@ -15,6 +15,6 @@ predicate isLongerThan10(Function func) {
   )
 }
 
-from Function fuction
+from Function function
 where isLongerThan10(function)
 select function, "is longer than 10 lines"
